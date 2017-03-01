@@ -5,7 +5,7 @@
         .module('21PointsApp')
         .config(bootstrapMaterialDesignConfig);
 
-    compileServiceConfig.$inject = [];
+    compileMaterialDesignConfig.$inject = [];
 
     function bootstrapMaterialDesignConfig() {
         $.material.init();
