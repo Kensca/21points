@@ -7,9 +7,9 @@ const prefix = 'src/test/javascript/'.replace(/[^/]+/g,'..');
 
 var webbrowserDriver= '';
 if (os.platform() === 'win32') {
-    webbrowserDriver = prefix + 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.26.exe';
+    webbrowserDriver = prefix + 'node_modules/webdriver-manager/selenium/chromedriver_2.26.exe';
 } else {
-    webbrowserDriver = prefix + 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.26';
+    webbrowserDriver = prefix + 'node_modules/webdriver-manager/selenium/chromedriver_2.26';
 }
 
 exports.config = {
